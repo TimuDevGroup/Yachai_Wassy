@@ -48,6 +48,14 @@ main {
     width: 100%;
 }
 
+main .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
 main .wrapper {
     max-width: 1260px;
     margin-left: auto;
