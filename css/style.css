@@ -43,6 +43,113 @@
     list-style-position: inside;
 }
 
+main {
+    height: 100%;
+    width: 100%;
+}
 
+main .wrapper {
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px;
+}
+
+main .wrapper .hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .wrapper .hero h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+main .wrapper .hero button.btn-articles {
+    justify-self: flex-end;
+    padding: 14px 45px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main .wrapper .glide {
+    margin-top: 25px;
+}
+
+main .wrapper .glide .glide__slide {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main .wrapper .glide .glide__slide .card {
+    height: 470px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 2px 13px 1px rgba(0,0,0,0.16);
+}
+
+main .wrapper .glide .glide__slide .card img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+main .wrapper .glide .glide__slide .card .share {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 15px;
+    right: 15px;
+    font-size: 22px;
+}
+
+
+
+.glide__arrows .glide__arrow--left {
+    left: .5em;
+}
+
+.glide__arrows .glide__arrow--right {
+    right: .5em;
+}
+
+.glide__arrows .glide__arrow {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 26px;
+    padding: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 
 
