@@ -68,7 +68,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Acerca del proyecto
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -78,7 +78,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-### Built With
+### Hecho con
 
 
 * [Bootstrap](https://getbootstrap.com)
