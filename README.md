@@ -33,12 +33,12 @@
 <h3 align="center">Yachai Wassy</h3>
 
   <p align="center">
-    project_description
+    Proyecto del sitio para la ONG Yachai Wassy
     <br />
     <a href="https://github.com/TimuDevGroup/Yachai_Wassy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TimuDevGroup/Yachai_Wassy">View Demo</a>
+    <a href="https://github.com/TimuDevGroup/Yachai_Wassy">Ver Demo</a>
     ·
     <a href="https://github.com/TimuDevGroup/Yachai_Wassy/issues">Reportar un Bug</a>
     ·
