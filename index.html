@@ -162,7 +162,7 @@
 <section id="noticias">
     <section class="main">
 		<div class="wrapper">
-		  <div class="d-flex align-items-center justify-content-center">
+		  <div class="d-flex align-items-center justify-content-center g-3 py-3">
 			<p class="display-5 fw-bold lh-1 mb-3 flex-column">Noticias y Eventos</p>
 		</div>
 		<div class="d-flex align-items-center justify-content-center flex-column">
@@ -440,6 +440,14 @@
 		  autoplay: 3500,
 		  perView: 3,
 		  gap: 20,
+		  breakpoints: {
+    1024: {
+      perView: 2
+    },
+    600: {
+      perView: 1
+    }
+  }
 		}).mount();
 	  </script>
 </body>
