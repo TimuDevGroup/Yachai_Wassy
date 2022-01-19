@@ -102,7 +102,7 @@ main .wrapper .glide .glide__slide {
 }
 
 main .wrapper .glide .glide__slide .card {
-    height: 264px;
+    /* height: 264px; */
     background-color: #000;
     position: relative;
     overflow: hidden;
