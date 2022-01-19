@@ -42,7 +42,7 @@
     columns: 2;
     list-style-position: inside;
 }
-
+/* Carrusel de la sección noticias */
 main {
     height: 100%;
     width: 100%;
@@ -160,4 +160,4 @@ main .wrapper .glide .glide__slide .card .share {
     -o-border-radius: 50%;
 }
 
-
+/* Fin carrusel de la sección noticias */
