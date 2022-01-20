@@ -23,12 +23,16 @@
     background-color: #7B61FF;
 }
 
+
 .conectados__pad--img {
 
     padding: 0 !important;
     
 
 }
+
+
+
 
 .misionval__bg{
     background-color: lightgray;
@@ -161,3 +165,22 @@ main .wrapper .glide .glide__slide .card .share {
 }
 
 /* Fin carrusel de la sección noticias */
+
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
