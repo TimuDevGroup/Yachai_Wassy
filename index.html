@@ -25,13 +25,10 @@
 <body>
 	<!-- Inicio del header y nav -->
 	<header>
-<nav>
+<nav class="shadow p-3 bg-body rounded">
 	<div class="container-xxl position-relative p-0">
 		<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-			<a href="" class="navbar-brand p-0">
-				<a href="index.html"><img src="./images/logo.png" class="img-fluid" width="119px"></a>
-				
-			</a>
+			
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
 				<span class="fa fa-bars"></span>
 			</button>
@@ -41,6 +38,7 @@
 					<a href="./pages/nosotros.html" class="nav-item nav-link">Nosotros</a>
 					<a href="#" class="nav-item nav-link">Comunidad</a>
 					<a href="#" class="nav-item nav-link">Únete</a>
+					
 					<!-- <div class="nav-item dropdown">
 						<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Perfil</a>
 						<div class="dropdown-menu m-0">
@@ -50,8 +48,9 @@
 						</div>
 					</div> -->
 					<a href="contacto.html" class="nav-item nav-link">Aliados</a>
+					<a href="#" class="fw-bold nav-item nav-link">¿Qué estás buscando?<img src="./images/buscar.png" width="17px" height="17px" alt="buscar" class="buscar" style="vertical-align:middle;margin:0px 0px 0px 5px" /></a>
 				</div>
-				<a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Registrarse</a>
+				<button type="button" class="btn btn-secondary"><img src="./images/iniciarsesion.png" width="16px" height="16px" alt="buscar" class="buscar" style="vertical-align:middle;margin:0px 5px" />Iniciar sesión</button>
 			</div>
 		</nav>
 </nav>
@@ -62,6 +61,10 @@
 	<!-- Inicio sección introduccion -->
 	<section id="introduccion">
 	<div class="container col-xxl-8 px-4 py-5">
+		<a href="" class="navbar-brand p-0">
+			<a href="index.html"><img src="./images/logo.png" class="img-fluid" width="221px"></a>
+			
+		</a>
 		<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 		  <div class="col-10 col-sm-8 col-lg-6">
 			<img src="./images/img-portada1.png" class="d-block mx-lg-auto img-fluid float-end" alt="Bootstrap Themes" loading="lazy">
@@ -112,35 +115,14 @@
 	   <!-- Fin sección datos
 	   Inicio sección misión y valores -->
 	   <section id="misionvalores">
-		
-		<div class="container-xxl gy-6 py-5 px-lg-5 m">
-			<div class="container misionval__bg">
+		<div class="container-xxl gy-1 py-5 px-lg-5">
+			<div class="container">
 				<div class="row">
-					<div class="misionval__1 col-lg-6">
-						<div class="misionval_1__yaku-vol text-center">
-							<h1 class="display-5 fw-bold lh-1 mb-3">Misión</h1>
-							<p class="lead">Apuntamos a ser un voluntariado de gran impacto en la educación pública con alcance rotundo en todos los departamentos del Perú.</p>
-						</div>
+					<img src="./images/mision-vision-valores.png" class="img-fluid" alt="mision y valores" />
 					</div>
-					<div class="misionval__2 col-lg-6">
-						<div class="misionval__2 text-center">
-							<h1 class="display-5 fw-bold lh-1 mb-3">
-								Valores
-							</h1>
-							<ul id="misionval__ul">
-								<li>Comprometidos con la sociedad</li>
-								<li>Cocreamos</li>
-								<li>Empáticos y solidarios</li>
-								<li>Somos diversos</li>
-							</ul>
-							
-						</div>
-					</div>
-					
 				</div>
 			</div>
 		</div>
-		
    </section>
    <!-- Fin sección misión y valores 
    		Inicio sección identidad -->
@@ -148,7 +130,7 @@
 	<div class="container col-xxl-8 px-4 py-3">
 		<div class="row flex-lg-row-reverse align-items-center g-3 py-3">
 		  <div class="col-10 col-sm-8 col-lg-6">
-			<img src="./images/identidad.png" class="d-block mx-lg-auto img-fluid" alt="identidad yachai wasi" width="700" height="500" loading="lazy">
+			<img src="./images/identidad2.png" class="d-block mx-lg-auto img-fluid" alt="identidad yachai wasi" width="700" height="500" loading="lazy">
 		  </div>
 		  <div class="col-lg-6">
 			<h1 class="display-5 fw-bold lh-1 mb-3">Nuestra identidad</h1>
@@ -327,30 +309,6 @@
 			</div>
 		
 	</section>
-
-		<section id="datosmiembros">
-			<div class="container-xxl gy-1 py-5 px-lg-5">
-				<div class="container">
-					<div class="row gx-5">
-						<div class="col-lg-4">
-							<div class="text-center">
-								<img src="./images/datospers1.png" class="img-fluid" alt="yaku voluntarios">
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="text-center">
-								<img src="./images/datospers2.png" class="img-fluid" alt="yaku asesores">
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="text-center">
-								<img src="./images/datospers3.png" class="img-fluid" alt="rurus">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 
 	  </main>
 	  <!-- Fin del main

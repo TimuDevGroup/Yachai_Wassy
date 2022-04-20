@@ -31,7 +31,12 @@
 
 }
 
+/* body{
+    background-image: url("../images/fondo-opaco.png");
+    background-size: cover auto;
+    background-repeat: no-repeat;
 
+} */
 
 
 .misionval__bg{
@@ -50,6 +55,11 @@
 main {
     height: 100%;
     width: 100%;
+    background-image: url("../images/fondo-opaco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
 }
 
 main .content {
