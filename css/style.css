@@ -31,18 +31,40 @@
 
 }
 
-/* body{
-    background-image: url("../images/fondo-opaco.png");
-    background-size: cover auto;
-    background-repeat: no-repeat;
-
-} */
-
-
 .misionval__bg{
     background-color: lightgray;
 }
+.fondo_nosotros{
+background-color: #FBD6D3;
+}
 
+.logofloat{
+    position: absolute;
+    left: 62px;
+    top: -46px;
+    z-index:2;
+}
+
+.navegacion{
+    position: relative;
+    top: 3rem;
+;
+}
+
+/* Rectangle 372 */
+
+.resctangulo_nosotros{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FA685E;
+border: 4px solid #FDB82D;
+box-sizing: border-box;
+border-radius: 8px;
+}
 /* lista desordenada valores */
 #misionval__ul{
     list-style-type: disc;
@@ -52,7 +74,15 @@
     list-style-position: inside;
 }
 /* Carrusel de la sección noticias */
-main {
+/* opciones fondo nosotros.html */
+.principal__nosotros{
+    background-color: #FBD6D3;
+    height: 100%;
+    width: 100%;
+}
+
+/* Opciones de fondo del main en index.html */
+.principal {
     height: 100%;
     width: 100%;
     background-image: url("../images/fondo-opaco.png");
