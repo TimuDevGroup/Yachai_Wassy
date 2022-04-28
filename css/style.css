@@ -41,14 +41,26 @@ background-color: #FBD6D3;
 .logofloat{
     position: absolute;
     left: 62px;
-    top: -46px;
+    top: -60px;
     z-index:2;
 }
 
-.navegacion{
+.margen-top{
     position: relative;
-    top: 3rem;
-;
+    top: 8rem;
+
+}
+.margen-top2{
+    position: relative;
+    top: 10rem;
+
+}
+
+.margen-top3{
+    position: relative;
+    top: 30rem;
+    padding-top: 10rem;
+
 }
 
 /* Rectangle 372 */
