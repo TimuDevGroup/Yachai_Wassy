@@ -140,6 +140,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.nombre_aliado {
+  width: 100%;
+  text-align: center;
+  font-family: "Baloo 2", cursive;
+  color: white;
+  margin-bottom: 1em;
 }
 
 .synthesis_aliado {
@@ -147,11 +156,28 @@
   font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: bold;
+  width: 90%;
+  margin-bottom: 1em;
 }
 
 @media screen and (max-width: 920px) {
   .article_speach .contenedor_speach_img {
     width: 90%;
+  }
+}
+@media screen and (max-width: 726px) {
+  .aliado {
+    flex-direction: column;
+  }
+
+  .container_img_aliado {
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .nombre_aliado {
+    margin-bottom: 1em;
   }
 }
 @media screen and (max-width: 400px) {
@@ -176,6 +202,10 @@
   .article_list_aliados .aliado .container_img_aliado .img_aliado {
     max-width: 14rem;
     max-height: 10rem;
+  }
+
+  .container_img_aliado {
+    width: 70%;
   }
 }
 
