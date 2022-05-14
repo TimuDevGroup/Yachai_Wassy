@@ -1,0 +1,653 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+}
+/*Configuración navbar*/
+#logo {
+    margin-left: 2%;
+}
+.navbar-expand-lg .navbar-nav{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-right: 2em;
+}
+.logofloat{
+    position: absolute;
+    left: 2%;
+    top: -60px;
+    z-index:2;
+}
+.py-lg-0{
+    width: 100%;
+}
+.container_logo{
+    width: 13%;
+}
+.navbar-expand-lg .navbar-nav {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn_nav{
+    width: 20%;
+}
+.margen-top{
+    position: relative;
+    top: 5rem;
+}
+.margen-top2{
+    position: relative;
+    top: 10rem;
+}
+.margen-top3{
+    position: relative;
+    top: 30rem;
+    padding-top: 10rem;
+}
+/*Fin configuración navbar*/
+
+.comunidadMain{
+	/*background-color: #FFF7F6;*/
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-image: url("../images/fondo-opaco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	margin-top: 6em;
+}
+.comunidadTitle {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 2rem;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.comunidadTitle__h2 {
+	font-family: 'Baloo 2';
+	font-weight: 700;
+	font-size: 2.5rem;
+    position: absolute;
+}
+.comunidadTitle__img {
+	width: 8rem;
+}
+
+/* --------- RURUS ---------- */
+
+.comunidadRurus{
+	margin-top: 1rem;
+	width: 100%;
+	height: 30rem;
+	background-color: #C4C4C433;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.comunidadRurus__title{
+	background-color: #FA685E80;
+	border-radius: 0.5rem;
+	width: 3rem;
+	height: 30rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+.comunidadRurus__title__text{
+	transform: rotate(-90deg);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+.comunidadRurus__globos{
+	margin: 0 auto;
+	width: 34rem;
+	height: 100%;
+}
+
+.comunidadRurus__globos1{
+	position: relative;
+	top: 0;
+	left: 0rem;
+	width: 12rem;
+	height: 12rem;
+	text-align: center;
+}
+
+.comunidadRurus__globos1__author{
+	width: 12rem;
+	height: 12rem;
+	position: relative;
+	z-index: 20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunidadRurus__globos1__img{
+	position: relative;
+	width: 12rem;
+	height: 12rem;
+	z-index: 15;
+	top: -12rem;
+}
+
+.comunidadRurus__globos2{
+	position: relative;
+	top: -10rem;
+	left: 8rem;
+	width: 26rem;
+	height: 26rem;
+	text-align: center;
+}
+
+.comunidadRurus__globos2__comment{
+	position: relative;
+	width: 26rem;
+	height: 26rem;
+	z-index: 20;
+	font-size: 0.9rem;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunidadRurus__globos2__comment p{
+	padding: 1rem 3rem 1rem 3.5rem;
+}
+
+.comunidadRurus__globos2__img{
+	position: relative;
+	width: 26rem;
+	top: -26rem;
+	z-index: 12;
+}
+
+/* --------- ALLPAS ---------- */
+
+.comunidadAllpas{
+	width: 100%;
+	height: 30rem;
+	background-color: #FA685E0A;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row-reverse;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.comunidadAllpas__title{
+	background-color: #A3D6D3;
+	border-radius: 0.5rem;
+	width: 3rem;
+	height: 30rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.comunidadAllpas__title__text{
+	transform: rotate(90deg);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+.comunidadAllpas__globos{
+	margin: 0 auto;
+	width: 34rem;
+	height: 100%;
+	justify-self: flex-start;
+}
+
+.comunidadAllpas__globos1{
+	position: relative;
+	left: 25rem;
+	top: 0;
+	width: 12rem;
+	height: 12rem;
+	text-align: center;
+}
+
+.comunidadAllpas__globos1__author{
+	width: 12rem;
+	height: 12rem;
+	position: relative;
+	z-index: 20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunidadAllpas__globos1__img{
+	position: relative;
+	width: 12rem;
+	height: 12rem;
+	z-index: 15;
+	top: -12rem;
+	transform: scaleX(-1);
+}
+
+.comunidadAllpas__globos2{
+	position: relative;
+	top: -10rem;
+	left: 3rem;
+	width: 26rem;
+	height: 26rem;
+	text-align: center;
+}
+
+.comunidadAllpas__globos2__comment{
+	position: relative;
+	width: 26rem;
+	height: 26rem;
+	z-index: 20;
+	font-size: 0.9rem;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunidadAllpas__globos2__comment p{
+	padding: 1rem 3.5rem 1rem 3rem;
+}
+
+.comunidadAllpas__globos2__img{
+	position: relative;
+	width: 26rem;
+	top: -26rem;
+	z-index: 12;
+	transform: scaleX(-1);
+}
+
+/* --------- TIKAS ---------- */
+
+.comunidadTikas{
+	width: 100%;
+	height: 30rem;
+	background-color: #C4C4C433;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.comunidadTikas__title{
+	background-color: #FA685E80;
+	border-radius: 0.5rem;
+	width: 3rem;
+	height: 30rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.comunidadTikas__title__text{
+	transform: rotate(-90deg);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+.comunidadTikas__globos{
+	margin: 0 auto;
+	width: 34rem;
+	height: 100%;
+}
+
+.comunidadTikas__globos1{
+	position: relative;
+	top: 0;
+	width: 12rem;
+	height: 12rem;
+	text-align: center;
+}
+
+.comunidadTikas__globos1__author{
+	width: 12rem;
+	height: 12rem;
+	position: relative;
+	z-index: 20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunidadTikas__globos1__img{
+	position: relative;
+	width: 12rem;
+	height: 12rem;
+	z-index: 15;
+	top: -12rem;
+}
+
+.comunidadTikas__globos2{
+	position: relative;
+	top: -10rem;
+	left: 8rem;
+	width: 26rem;
+	height: 26rem;
+	text-align: center;
+}
+
+.comunidadTikas__globos2__comment{
+	position: relative;
+	width: 26rem;
+	height: 26rem;
+	z-index: 20;
+	font-size: 0.9rem;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunidadTikas__globos2__comment p{
+	padding: 1rem 3rem 1rem 3.5rem;
+}
+
+.comunidadTikas__globos2__img{
+	position: relative;
+	width: 26rem;
+	top: -26rem;
+	z-index: 12;
+}
+
+/* --------- YAKUS ---------- */
+
+.comunidadYakus{
+	width: 100%;
+	height: 30rem;
+	background-color: #FA685E0A;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: center;
+	flex-direction: row-reverse;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.comunidadYakus__title{
+	background-color: #A3D6D3;
+	border-radius: 0.5rem;
+	width: 3rem;
+	height: 30rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.comunidadYakus__title__text{
+	transform: rotate(90deg);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+.comunidadYakus__globos{
+	margin: 0 auto;
+	width: 34rem;
+	height: 100%;
+}
+
+.comunidadYakus__globos1{
+	position: relative;
+	left: 25rem;
+	top: 0;
+	width: 12rem;
+	height: 12rem;
+	text-align: center;
+}
+
+.comunidadYakus__globos1__author{
+	width: 12rem;
+	height: 12rem;
+	position: relative;
+	z-index: 20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunidadYakus__globos1__img{
+	position: relative;
+	width: 12rem;
+	height: 12rem;
+	z-index: 15;
+	top: -12rem;
+	transform: scaleX(-1);
+}
+
+.comunidadYakus__globos2{
+	position: relative;
+	top: -10rem;
+	left: 3rem;
+	width: 26rem;
+	height: 26rem;
+	text-align: center;
+}
+
+.comunidadYakus__globos2__comment{
+	position: relative;
+	width: 26rem;
+	height: 26rem;
+	z-index: 20;
+	font-size: 0.9rem;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunidadYakus__globos2__comment p{
+	padding: 1rem 3.5rem 1rem 3rem;
+}
+
+.comunidadYakus__globos2__img{
+	position: absolute;
+	width: 26rem;
+	top: 0rem;
+	left: 0rem;
+	z-index: 12;
+	transform: scaleX(-1);
+	overflow: hidden;
+}
+
+/* ---------- burbujas ------------ */
+
+.bubbleContainer{
+	position: absolute;
+	width: 100%;
+	height: 30rem;
+}
+
+.bubbleRurus{
+	top: 8.5rem;
+}
+
+.bubbleAllpas{
+	top: 38.5rem;
+}
+
+.bubbleTikas{
+	top: 68.5rem;
+}
+
+.bubbleYakus{
+	top: 98.5rem;
+}
+
+.bubbles{
+	position: relative;
+	visibility: hidden;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	top: 0rem;
+	left: 0rem;
+	background-color: #705176;
+	z-index: 3;
+}
+
+.c705176{
+	background-color: #705176 
+}
+.c00839A{
+	background-color: #00839A 
+}
+.cC58976{
+	background-color: #C58976 
+}
+.cFDB82D{
+	background-color: #FDB82D 
+}
+.c706976{
+	background-color: #706976 
+}
+.c9A8B92{
+	background-color: #9A8B92 
+}
+footer a {
+    text-decoration: none;
+}
+/* --------- media queries ------------ */
+@media screen and (max-width: 1230px) {
+    .buscando{
+        display: none;
+    }
+}
+@media screen and (max-width: 620px) {
+    html {font-size: 15px}
+}
+
+@media screen and (max-width: 580px) {
+    html {font-size: 14px}
+}
+
+@media screen and (max-width: 540px) {
+    html {font-size: 13px}
+}
+
+@media screen and (max-width: 500px) {
+    html {font-size: 12px}
+	.comunidadRurus__title{
+		width: 2rem}
+	.comunidadAllpas__title{
+		width: 2rem}
+	.comunidadTikas__title{
+		width: 2rem}
+	.comunidadYakus__title{
+		width: 2rem}
+	/* --------------------- */
+	.comunidadRurus__globos{
+		width: 26rem;
+	}
+	.comunidadRurus__globos1__img{
+		visibility: collapse;
+	}
+	.comunidadRurus__globos1__author p{
+		border-radius: 1rem;
+		background-color: #E6B24F;
+		padding: 1rem 0.5rem;
+	}
+	.comunidadRurus__globos2{
+		left: 0;
+	}
+	/* --------------------- */
+	.comunidadTikas__globos{
+		width: 26rem;
+	}
+	.comunidadTikas__globos1__img{
+		visibility: collapse;
+	}
+	.comunidadTikas__globos1__author p{
+		border-radius: 1rem;
+		background-color: #A3D6D3;
+		padding: 0.5rem 0.5rem;
+	}
+	.comunidadTikas__globos2{
+		left: 0;
+	}
+	/* --------------------- */
+	.comunidadAllpas__globos{
+		width: 26rem;
+	}
+	.comunidadAllpas__globos1{
+		left: 15rem;
+	}
+	.comunidadAllpas__globos1__img{
+		visibility: collapse;
+	}
+	.comunidadAllpas__globos1__author p{
+		border-radius: 1rem;
+		background-color: #A3D6D3;
+		padding: 0.5rem 0.5rem;
+	}
+	.comunidadAllpas__globos2{
+		left: 0;
+	}
+	/* --------------------- */
+	.comunidadYakus__globos{
+		width: 26rem;
+	}
+	.comunidadYakus__globos1{
+		left: 15rem;
+	}
+	.comunidadYakus__globos1__img{
+		visibility: collapse;
+	}
+	.comunidadYakus__globos1__author p{
+		border-radius: 1rem;
+		background-color: #A3D6D3;
+		padding: 0.5rem 0.5rem;
+	}
+	.comunidadYakus__globos2{
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 460px) {
+    html {font-size: 11px}
+}
+
+@media screen and (max-width: 420px) {
+    html {font-size: 10px}
+}

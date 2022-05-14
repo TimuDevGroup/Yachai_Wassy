@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: 'Baloo 2', cursive;
 }
-#logo {
-    margin-left: 2%;
-}
+
 .datos__yaku-vol {
 
     background-color: #7B61FF;
@@ -17,27 +15,79 @@
     background-color: #E6D53E;
 
 }
-
 .datos__yaku-rurus {
 
     background-color: #7B61FF;
 }
-
-
 .conectados__pad--img {
-
     padding: 0 !important;
-    
-
 }
-
-
-
-
+/*Configuración navbar*/
+#logo {
+    margin-left: 2%;
+}
+.navbar-expand-lg .navbar-nav{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-right: 2em;
+}
+.logofloat{
+    position: absolute;
+    left: 2%;
+    top: -60px;
+    z-index:2;
+}
+.py-lg-0{
+    width: 100%;
+}
+.container_logo{
+    width: 13%;
+}
+.navbar-expand-lg .navbar-nav {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn_nav{
+    width: 20%;
+}
+.margen-top{
+    position: relative;
+    top: 5rem;
+}
+.margen-top2{
+    position: relative;
+    top: 10rem;
+}
+.margen-top3{
+    position: relative;
+    top: 30rem;
+    padding-top: 10rem;
+}
+/*Fin configuración navbar*/
 .misionval__bg{
     background-color: lightgray;
 }
+.fondo_nosotros{
+background-color: #FBD6D3;
+}
+/* Rectangle 372 */
 
+.resctangulo_nosotros{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FA685E;
+border: 4px solid #FDB82D;
+box-sizing: border-box;
+border-radius: 8px;
+}
 /* lista desordenada valores */
 #misionval__ul{
     list-style-type: disc;
@@ -47,9 +97,22 @@
     list-style-position: inside;
 }
 /* Carrusel de la sección noticias */
-main {
+/* opciones fondo nosotros.html */
+.principal__nosotros{
+    background-color: #FBD6D3;
     height: 100%;
     width: 100%;
+}
+
+/* Opciones de fondo del main en index.html */
+.principal {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/fondo-opaco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
 }
 
 main .content {
@@ -184,3 +247,181 @@ ul#horizontal-list {
 	ul#horizontal-list li {
 		display: inline;
 	}
+.nosotros_container_intro{
+    margin-top: 5em;
+}
+/* Estilos de la sección Unete */
+
+.unete_main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 2rem;
+    background-image: url("../images/fondo-opaco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 4em;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 5rem;
+	justify-content: center;
+	align-items: center;
+    position: relative;
+}
+.unete_title {
+	font-family: 'Baloo 2';
+	font-weight: 700;
+	font-size: 64px;
+    position: absolute;
+}
+
+.acordeon_box{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 95%;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	
+}
+.unete_details{
+	align-content: flex-end;
+	background-color: #2360F699;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-right: 1rem;
+	cursor: pointer;
+	border: 1px solid #FA685E;
+	border-bottom-right-radius: 2rem;
+	border-top-right-radius: 2rem;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+.unete_details2{
+	width: 60%;
+	align-content: flex-start;
+	background-color: #2360F699;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-right: 1rem;
+	cursor: pointer;
+	border: 1px solid #FA685E;
+	border-bottom-left-radius: 2rem;
+	border-top-left-radius: 2rem;
+	margin-bottom: 2rem;
+}
+
+
+.unete_summary{
+	list-style: none;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 5rem;
+	padding-right: 3rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+.selector{
+	transition: all 150ms ease-in;
+}
+
+.selector2{
+	transition: all 150ms;
+	
+}
+
+.unete_details[open] .selector{
+	transform: rotate(-90deg);
+}
+
+.unete_details2[open] .selector2{
+	
+	transform: rotate(90deg);
+}
+
+.acordeon_p{
+	padding: 1rem;
+}
+
+.frame{
+	display: flex;
+	padding: 3rem;
+	width: 490px;
+	height: 401px;
+	background-color: #040C33;
+	border-radius: 30px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	
+}
+
+.contact{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+	
+
+
+
+.unete_form{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	background-color: #fff;
+	height: 100%;
+	padding: 5rem;
+	padding-left: 15rem;
+	border: 1px solid #000;
+	width: 40rem;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	
+}
+
+input{
+	border: none;
+	border-bottom: 1px solid #000;
+	margin-bottom: .5rem;
+}
+
+.data{
+	
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 1rem;
+	position: absolute;
+	padding: 2rem;
+
+}
+
+.data_line{
+	display: flex;
+	align-items: baseline;
+}
+
+.data_logo{
+	margin-right: .3rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+@media screen and (max-width: 1230px) {
+    .buscando{
+        display: none;
+    }
+}

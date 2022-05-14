@@ -1,0 +1,247 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+    background-color: #FFF7F6;
+    font-family: 'Baloo 2';
+}
+/*Configuración navbar*/
+#logo {
+    margin-left: 2%;
+}
+.navbar-expand-lg .navbar-nav{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-right: 2em;
+}
+.logofloat{
+    position: absolute;
+    left: 2%;
+    top: -60px;
+    z-index:2;
+}
+.py-lg-0{
+    width: 100%;
+}
+.container_logo{
+    width: 13%;
+}
+.navbar-expand-lg .navbar-nav {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn_nav{
+    width: 20%;
+}
+.margen-top{
+    position: relative;
+    top: 5rem;
+}
+.margen-top2{
+    position: relative;
+    top: 10rem;
+}
+.margen-top3{
+    position: relative;
+    top: 30rem;
+    padding-top: 10rem;
+}
+/*Fin configuración navbar*/
+.noticiasMain{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    margin-top: 6em;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/fondo-opaco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.noticiasTitle {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 2rem;
+	justify-content: center;
+	align-items: center;
+    margin-bottom: 2em;
+}
+
+.noticiasTitle__h2 {
+	font-weight: 700;
+	font-size: 2.5rem;
+    position: absolute;
+}
+
+.noticiasTitle__img {
+	width: 8rem;
+}
+
+.noticiasSubTitle{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.noticiasPremios{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.noticiasPremios__container{
+    width: 30%;
+    min-width: 17rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noticiasPremios__container__imgContainer{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.noticiasPremios__container h2{
+    text-align: center;
+    height: 3rem;
+}
+
+.noticiasPremios__container button{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    background-color: #6773E0;
+    color: #fff;
+    font-family: 'Baloo 2';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticiasEventos{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.noticiasEventos__container{
+    width: 45%;
+    min-width: 17rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noticiasEventos__container__imgContainer{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.noticiasEventos__container__imgContainer img{
+    width: 100%;
+    height: 20rem;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.noticiasEventos__container h2{
+    text-align: center;
+    height: 3rem;
+    margin-bottom: 2em;
+}
+
+.noticiasNotas{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.noticiasNotas__container{
+    width: 45%;
+    min-width: 17rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.noticiasNotas__container__imgContainer{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: scale-down;
+    margin: 1rem 0;
+}
+
+.noticiasNotas__container__imgContainer img{
+    width: 100%;
+    height: 20rem;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.noticiasNotas__container h2{
+    text-align: center;
+    height: 3rem;
+}
+
+.noticiasNotas__container button{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    background-color: #6773E0;
+    color: #fff;
+    font-family: 'Baloo 2';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RadioExitosa{
+    margin-bottom: 4rem;
+}
+@media screen and (max-width: 1230px) {
+    .buscando{
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    html {font-size: 14px}
+}
