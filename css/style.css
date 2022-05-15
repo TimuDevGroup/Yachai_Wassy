@@ -96,6 +96,9 @@ border-radius: 8px;
     columns: 2;
     list-style-position: inside;
 }
+.margin_bottom{
+    margin-bottom: 5em;
+}
 /* Carrusel de la sección noticias */
 /* opciones fondo nosotros.html */
 .principal__nosotros{
