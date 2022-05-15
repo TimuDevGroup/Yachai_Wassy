@@ -9,6 +9,9 @@ body{
 #logo {
     margin-left: 2%;
 }
+.navbar-collapse{
+    margin-top: 2em;
+}
 .navbar-expand-lg .navbar-nav{
     width: 80%;
     display: flex;

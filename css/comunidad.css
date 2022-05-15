@@ -12,6 +12,9 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+.navbar-collapse{
+    margin-top: 2em;
+}
 .navbar-light .navbar-nav .nav-link{
     margin-right: 2em;
 }
