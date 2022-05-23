@@ -15,6 +15,9 @@
 .navbar-light .navbar-nav .nav-link{
   margin-right: 2em;
 }
+.navbar-collapse{
+  margin-top: 2em;
+}
 .logofloat{
   position: absolute;
   left: 2%;

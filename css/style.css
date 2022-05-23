@@ -26,6 +26,9 @@
 #logo {
     margin-left: 2%;
 }
+.navbar-collapse{
+    margin-top: 2em;
+}
 .navbar-expand-lg .navbar-nav{
     width: 80%;
     display: flex;
@@ -95,6 +98,9 @@ border-radius: 8px;
     -moz-columns: 2;
     columns: 2;
     list-style-position: inside;
+}
+.margin_bottom{
+    margin-bottom: 5em;
 }
 /* Carrusel de la sección noticias */
 /* opciones fondo nosotros.html */
